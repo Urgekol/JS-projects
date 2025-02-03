@@ -1,0 +1,55 @@
+.color-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.color-buttons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+}
+
+.reset-button 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+}
+
+button
+{
+    border-radius: 5cm;
+    width: 55px; 
+}
+.color-buttons #red 
+{
+    margin: 10px 10px 10px 10px;
+    background-color: red;
+    color: white;
+}
+
+.color-buttons #blue 
+{
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+
+.color-buttons #green 
+{
+    margin: 10px;
+    background-color: green;
+    color: white;
+}
+
+.reset-button #reset 
+{
+    background-color: gray;
+    color: white;
+}
