@@ -1,0 +1,32 @@
+body{
+    color: rgb(212, 227, 237, 0.932);
+
+    background-image:url(leaf.avif);
+    background-position: center;
+
+    background-attachment: fixed;  
+
+    background-repeat:no-repeat;
+
+    background-size: cover;     
+}
+
+.container{
+    width: 50%;
+    height: 70vh;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5);   /*a small black blur background*/
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

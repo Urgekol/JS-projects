@@ -1,5 +1,5 @@
 document.getElementById("taskForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // as soon as we submit the form, the page will refresh, so we prevent that
+    event.preventDefault(); // Prevents form from refreshing
 
     var input = document.getElementById("task");
     var ul = document.getElementById("list");
